@@ -5,11 +5,11 @@ development:
     default:
       # Defines the name of the default database that Mongoid can connect to.
       # (required).
-      database: ruby
+      database: titouis
       # Provides the hosts the default client can connect to. Must be an array
       # of host:port pairs. (required)
       hosts:
-        - louis-charavner.fr:4444
+        - ds153763.mlab.com:53763
       options:
         # Note that all options listed below are Ruby driver client options (the mongo gem).
         # Please refer to the driver documentation of the version of the mongo gem you are using
@@ -28,10 +28,10 @@ development:
         #     - use: web
 
         # The name of the user for authentication.
-        # user: 'user'
+        user: 'ruby'
 
         # The password of the user for authentication.
-        # password: 'password'
+        password: 'rubyruby6'
 
         # The user's database roles.
         # roles:
@@ -155,10 +155,10 @@ development:
 test:
   clients:
     default:
-      database: ruby
+      database: titouis
       hosts:
-        - louis-charavner.fr:4444
+        - ds153763.mlab.com:53763
       options:
         read:
           mode: :primary
-        max_pool_size: 5
+        max_pool_size: 1
