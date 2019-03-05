@@ -1,0 +1,38 @@
+<div class="bg-grayWhite">
+
+<div class="w-50 h-50 pos-fixed pos-center">
+  <h1 class="mb-10">Sign Up</h1>
+  <div class="bg-grayMouse">
+    <div class="p-10">
+
+      <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
+        <%= devise_error_messages! %>
+
+        <div class="field">
+          <%= f.label :email, class: 'fg-white' %>
+          <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
+        </div>
+
+        <div class="field">
+          <%= f.label :password, class: 'fg-white' %>
+          <% if @minimum_password_length %>
+            <!--            <em>(<%#= @minimum_password_length %> characters minimum)</em>-->
+          <% end %>
+          <%= f.password_field :password, autocomplete: "new-password" %>
+        </div>
+
+        <div class="field">
+          <%= f.label :password_confirmation, class: 'fg-white' %>
+          <%= f.password_field :password_confirmation, autocomplete: "new-password" %>
+        </div>
+
+        <%= render "devise/shared/links" %>
+        <div class="field my-5">
+          <%= f.submit "Sign up", class: 'button bg-orange fg-white float-right' %>
+        </div>
+        <br class=""/>
+      <% end %>
+    </div>
+  </div>
+</div>
+</div>
