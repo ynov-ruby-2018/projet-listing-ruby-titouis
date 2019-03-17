@@ -8,6 +8,7 @@ gem 'rails', '~> 5.2.1'
 # Use Puma as the app server
 gem 'mongoid'
 gem 'devise'
+gem 'shrine'
 gem 'puma', '~> 3.11'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
@@ -28,6 +29,7 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
+gem 'simple_form'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
