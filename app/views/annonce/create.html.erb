@@ -1,0 +1,24 @@
+<div class="list-root">
+  <div class="bg-grayWhite">
+    <div class="w-50 h-50 pos-fixed pos-center">
+      <div class="mb-10">
+        <div class="bg-grayMouse">
+          <div class="p-10">
+            <h2 class="fg-white"> Ajouter une annonce</h2>
+            <div class="p-2">
+              <%= simple_form_for @annonce, wrapper: :metro_form do |f| %>
+                <%= f.input :name %>
+                <%= f.input :photo %>
+                <%= f.input :description, as: :text %>
+                <div class="py-3 float-right">
+                  <%= f.button :submit, class: 'button fg-white bg-orange' %>
+                </div>
+                <br />
+            <% end %>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
