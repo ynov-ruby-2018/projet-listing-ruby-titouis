@@ -2,6 +2,8 @@
 
 class AnnonceController < ApplicationController
 
+  include ImageUploader::Attachment.new(:photo)
+
   def index
     current_user
   end

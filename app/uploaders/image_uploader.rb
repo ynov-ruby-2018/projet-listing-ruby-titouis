@@ -1,0 +1,2 @@
+class imageUploader
+end
