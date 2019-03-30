@@ -31,5 +31,5 @@
 /config/master.key
 
 # editors
-.vscode/
-.idea/
+.vscode
+.idea

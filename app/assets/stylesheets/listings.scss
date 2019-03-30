@@ -1,0 +1,16 @@
+// Place all the styles related to the listing controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.list {
+  &-root {
+    margin-top: 75px;
+  }
+}
+
+.fab-button {
+  z-index: 1030;
+  position: fixed;
+  right: 2vw;
+  bottom: 2vw;
+}
