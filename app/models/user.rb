@@ -14,8 +14,6 @@ class User
   field :remember_created_at, type: Time
 
   ## Specifics Titouis
-  has_many :annonces, validate: false
-  has_many :posts, validate: false
   field :role, type: String
 
   ## Trackable

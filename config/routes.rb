@@ -6,6 +6,4 @@ Rails.application.routes.draw do
 
   root to: 'homepage#index'
   resource :annonces
-  get '/list', to: 'annonce#index', resources: :annonce
-  get '/list/add', to: 'annonce#create', resources: :annonce
 end

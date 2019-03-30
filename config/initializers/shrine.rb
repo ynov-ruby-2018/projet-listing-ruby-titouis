@@ -8,6 +8,7 @@ Shrine.storages = {
   store: Shrine::Storage::FileSystem.new('public', prefix: 'uploads'), # permanent
 }
 
-Shrine.plugin :sequel # or :activerecord
+Shrine.plugin :activerecord
 Shrine.plugin :cached_attachment_data # for retaining the cached file across form redisplay
 Shrine.plugin :restore_cached_data # re-extract metadata when attaching a cached file
+Shrine.plugin :mongoid

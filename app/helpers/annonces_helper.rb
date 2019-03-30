@@ -1,2 +1,2 @@
-module AnnonceHelper
+module AnnoncesHelper
 end
