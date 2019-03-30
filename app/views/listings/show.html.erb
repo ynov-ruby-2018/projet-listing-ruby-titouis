@@ -1,0 +1,15 @@
+<a href="/listings/new">
+  <button class="fab-button action-button bg-grayMouse fg-white">
+    <span class="icon"><span class="mif-plus"></span></span>
+  </button>
+</a>
+<div class="list-root container">
+  <h1>Hello</h1>
+    <ul>
+      <% for listing in @listings %>
+
+        <li><%= listing[:name] %></li>
+        <img src="" alt="">
+      <% end %>
+    </ul>
+</div>

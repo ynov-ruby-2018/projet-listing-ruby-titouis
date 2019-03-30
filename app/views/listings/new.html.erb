@@ -6,7 +6,7 @@
           <div class="p-10">
             <h2 class="fg-white"> Ajouter une annonce</h2>
             <div class="p-2">
-              <%= simple_form_for @annonce, wrapper: :metro_form do |f| %>
+              <%= simple_form_for @Listing, wrapper: :metro_form do |f| %>
                 <%= f.input :name %>
                 <label for="photo" class="fg-white">Photo</label>
                 <%= f.input :photo, as: :file%>

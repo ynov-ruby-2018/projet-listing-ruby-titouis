@@ -1,4 +1,4 @@
-class Annonce
+class Listing
   include Mongoid::Document
 
   field :author, type: String
