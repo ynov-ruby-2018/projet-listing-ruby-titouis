@@ -1,7 +1,8 @@
-require 'test_helper'
+require_relative '../test_helper'
 
-class UserTest < ActiveSupport::TestCase
-  # test "the truth" do
-  #   assert true
-  # end
+describe User do
+
+  it "display full_name" do
+    puts "ok"
+  end
 end

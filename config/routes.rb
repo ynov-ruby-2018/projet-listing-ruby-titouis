@@ -6,4 +6,12 @@ Rails.application.routes.draw do
 
   root to: 'homepage#index'
   resource :listings
+
+
+  namespace :api, format: 'json' do
+    namespace :v1 do
+      post 'auth', to: 'auth#create'
+      get 'locales', to: 'locales#index'
+    end
+  end
 end

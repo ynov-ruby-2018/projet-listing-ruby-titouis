@@ -1,4 +1,6 @@
 class User
+  def will_save_change_to_email?
+  end
   include Mongoid::Document
   devise :database_authenticatable, :registerable, :rememberable, :validatable
 

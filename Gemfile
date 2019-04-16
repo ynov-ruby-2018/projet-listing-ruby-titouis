@@ -28,6 +28,7 @@ gem 'jbuilder', '~> 2.5'
 # gem 'redis', '~> 4.0'
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
+gem "spring", group: :development
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
@@ -47,11 +48,15 @@ group :development do
 end
 
 group :test do
-  # Adds support for Capybara system testing and selenium driver
-  gem 'capybara', '>= 2.15'
-  gem 'selenium-webdriver'
-  # Easy installation and use of chromedriver to run system tests with Chrome
-  gem 'chromedriver-helper'
+  gem 'launchy'
+  gem 'minitest'
+  gem 'minitest-focus'
+  gem 'minitest-rails'
+  gem 'minitest-matchers'
+  gem 'minitest-metadata'
+  gem 'minitest-profiler'
+  gem 'capybara-email'
+  gem 'warden'
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
