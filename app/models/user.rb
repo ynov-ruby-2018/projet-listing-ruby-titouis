@@ -34,12 +34,8 @@ class User
   # field :unlock_token,    type: String # Only if unlock strategy is :email or :both
   # field :locked_at,       type: Time
 
-  def is_admin
-    self.role == 'admin'
-  end
-
-  def generate_token
-    SecureRandom.uuid
+  def will_save_change_to_email?
+    "caca"
   end
 
 end
