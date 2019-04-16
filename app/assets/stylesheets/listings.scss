@@ -12,6 +12,9 @@
   &-right {
     width: 80%;
   }
+  .img-preview {
+    width: 256px
+  }
 }
 
 .fab-button {
@@ -19,4 +22,12 @@
   position: fixed;
   right: 2vw;
   bottom: 2vw;
+}
+
+.no-margin {
+  margin: 0 !important;
+}
+
+.no-border {
+  border: none !important;
 }

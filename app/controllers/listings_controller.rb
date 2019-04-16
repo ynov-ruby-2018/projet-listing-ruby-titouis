@@ -15,13 +15,17 @@ class ListingsController < ApplicationController
   end
 
   def create
-    current_listing = params[:Listing]
+    current_listing = params[:listing]
+
     Listing.create!(
         {
             author: current_user[:email],
             name: current_listing[:name],
             photo: current_listing[:photo],
-            description: current_listing[:description]
+            description: current_listing[:description],
+            price: current_listing[:price],
+            tags: current_listing[:tags].split(';'),
+            date: DateTime.now
         }
     )
 
