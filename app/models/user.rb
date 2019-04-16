@@ -3,8 +3,8 @@ class User
   devise :database_authenticatable, :registerable, :rememberable, :validatable
 
   ## Database authenticatable
-  field :email,              type: String, default: ""
-  field :encrypted_password, type: String, default: ""
+  field :email, type: String
+  field :encrypted_password, type: String
 
   ## Recoverable
   field :reset_password_token,   type: String
@@ -14,8 +14,6 @@ class User
   field :remember_created_at, type: Time
 
   ## Specifics Titouis
-  field :annonces, type: Array
-  field :discussion, type: Array
   field :role, type: String
 
   ## Trackable

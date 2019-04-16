@@ -2,10 +2,10 @@
     <%= link_to "Listing", root_path, class: "fg-white brand no-hover place-left", style: "font-size: 28px"%>
     <ul class="app-bar-menu ml-auto mr-10">
       <% if !user_signed_in? %>
-        <%= button_to "Login", new_user_session_path, class: 'button bg-grayMouse fg-white mr-5 mif-chevron-right' %>
+        <%= button_to "Login", new_user_session_path, class: 'button bg-grayMouse fg-white mr-5 mif-chevron-right', method: :get %>
       <% else %>
-        <%= button_to "Logout", destroy_user_session_path, class: 'button bg-grayMouse fg-lightRed mr-5 text-bold' %>
-        <%= button_to "Profile", edit_user_registration_path, class: 'button bg-grayMouse fg-white mr-5 mif-user' %>
+        <%= button_to "Logout", destroy_user_session_path, class: 'button bg-grayMouse fg-lightRed mr-5 text-bold', method: :get %>
+        <%= button_to "Profile", edit_user_registration_path, class: 'button bg-grayMouse fg-white mr-5 mif-user', method: :get %>
       <% end %>
         <div class="dropdown-button mr-5">
             <button class="button dropdown-toggle">EN</button>
@@ -13,6 +13,6 @@
                 <li><a href="#">FR</a></li>
             </ul>
         </div>
-        <button class="button success">Create my Listing</button>
+        <%= button_to "Create my Listing", listings_path, class: 'button bg-green fg-white', method: :get %>
     </ul>
 </div>

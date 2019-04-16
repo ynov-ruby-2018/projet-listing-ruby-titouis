@@ -1,0 +1,28 @@
+<a href="/listings/new">
+  <button class="fab-button action-button bg-grayMouse fg-white">
+    <span class="icon"><span class="mif-plus"></span></span>
+  </button>
+</a>
+<div class="list-root container">
+    <div>
+      <%# <% for listing in @listings %>
+        <%# <h3><%= listing[:name] </h3> %>
+
+        <h3 class="list-title">Je suis une : annonce</h3>
+        <div>
+          <span class="fg-gray mr-2 text-secondary">2019-03-30 15h23</span>
+          <span class="border-radius-20 bg-grayMouse p-1 text-small fg-white">Musique</span>
+        </div>
+        <div class="d-flex pt-5">
+          <img class="mr-8 pb-10" src="https://via.placeholder.com/200" alt="">
+          <div class="list-right">
+            <p class="pb-10">Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse eveniet, placeat eos recusandae quibusdam a provident officia cumque. Quis natus quo necessitatibus, quae error nisi hic non? Voluptas, excepturi sunt?Adipisci inventore, iste in nam soluta culpa fugiat modi aut ad, sint quae dolore harum eaque officiis nostrum sed incidunt saepe, nesciunt mollitia similique quibusdam amet aperiam. Enim, iure delectus.</p>
+            <span class="text-bold">€500.00</span>
+            
+        <%= button_to "Contact seller", listings_path, class: 'button bg-orange fg-white float-right', method: :get %>
+          </div>
+        </div>
+      <%# <% end %>
+      <hr>
+    </div>
+</div>
