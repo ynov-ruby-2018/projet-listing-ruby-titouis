@@ -2,7 +2,8 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 .hero {
-    background-image: image-url('hero.jpg');
+    //background-image: url(asset-path('hero.jpg'));
+   background-image: url("https://image.noelshack.com/fichiers/2019/16/2/1555407277-hero-87759f9facd57327609f8db27feef3934cb93b93620753655b14c4ff2138d5f8.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;

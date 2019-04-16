@@ -9,13 +9,16 @@
               <%= simple_form_for @Listing, wrapper: :metro_form do |f| %>
                 <%= f.input :name %>
                 <label for="photo" class="fg-white">Photo</label>
-                <%= f.input :photo, as: :file%>
+                <%= f.input :photo, as: :file %>
                 <%= f.input :description, as: :text %>
+                <%= f.input :price, as: :float %>
+                <label for="tags" class="fg-white">Tags: Séparez les tags par des ';'</label>
+                <%= f.input :tags, label: false %>
                 <div class="py-3 float-right">
                   <%= f.button :submit, class: 'button fg-white bg-orange' %>
                 </div>
-                <br />
-            <% end %>
+                <br/>
+              <% end %>
             </div>
           </div>
         </div>

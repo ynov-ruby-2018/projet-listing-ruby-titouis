@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3ab006cf-8a01-4533-88d4-7af96f13e885" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/assets/images/hero.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/models/user.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/views/layouts/_navbar.html.erb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/initializers/devise.rb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/locales/devise.en.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/fixtures/users.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/models/user_test.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="3ab006cf-8a01-4533-88d4-7af96f13e885" name="Default Changelist" comment="Add mail and production environnment">
+      <change beforePath="$PROJECT_DIR$/.idea/.generators" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.generators" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/projet-listing-ruby-titouis.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projet-listing-ruby-titouis.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/assets/stylesheets/homepage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/app/assets/stylesheets/homepage.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/homepage/index.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/homepage/index.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/layouts/application.html.erb" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/layouts/application.html.erb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/mongoid.yml" beforeDir="false" afterPath="$PROJECT_DIR$/config/mongoid.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/environments/production.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/environments/production.rb" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -33,6 +21,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/linuxTitouis@Development__projet_listing_ruby_titouis.rcov" NAME="Development: projet-listing-ruby-titouis Coverage Results" MODIFIED="1555399968632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="projet-listing-ruby-titouis" />
     <SUITE FILE_PATH="coverage/projet_listing_ruby_titouis@Development__projet_listing_ruby_titouis.rcov" NAME="Development: projet-listing-ruby-titouis Coverage Results" MODIFIED="1551703522971" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="projet-listing-ruby-titouis" />
   </component>
   <component name="DatabaseView">
@@ -51,11 +40,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/log/production.log">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="13" selection-start-line="13" selection-end-line="13" />
+            <state relative-caret-position="168">
+              <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/homepage.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="4" column="52" lean-forward="true" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
             </state>
           </provider>
         </entry>
@@ -63,29 +61,40 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/mongoid.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-897" />
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/homepage/index.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="161">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state>
+              <caret lean-forward="true" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/homepage_controller.rb">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            <state relative-caret-position="288">
+              <caret line="12" lean-forward="true" selection-end-line="34" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>tours</find>
+      <find>link_to</find>
+      <find>perforam</find>
+      <find>action_mailer</find>
+      <find>contact_mailer</find>
+      <find>config.</find>
+      <find>config</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -93,15 +102,44 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/config/mongoid.yml" />
-        <option value="$PROJECT_DIR$/app/models/user.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/app/views/layouts/appbar.html.erb" />
         <option value="$PROJECT_DIR$/app/views/shared/_appbar.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/_appbar.html.erb" />
         <option value="$PROJECT_DIR$/app/views/homepage/index.html.erb" />
         <option value="$PROJECT_DIR$/app/views/layouts/application.html.erb" />
+        <option value="$PROJECT_DIR$/app/uploaders/image_uploader.rb" />
+        <option value="$PROJECT_DIR$/config/initializers/shrine.rb" />
+        <option value="$PROJECT_DIR$/app/models/listing.rb" />
+        <option value="$PROJECT_DIR$/app/views/listings/new.html.erb" />
+        <option value="$PROJECT_DIR$/Gemfile" />
+        <option value="$PROJECT_DIR$/test/application_system_test_case.rb" />
+        <option value="$PROJECT_DIR$/config/environments/test.rb" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/listings.scss" />
+        <option value="$PROJECT_DIR$/app/views/contact_seller_mailer/contact.text.erb" />
+        <option value="$PROJECT_DIR$/config/environments/development.rb" />
+        <option value="$PROJECT_DIR$/app/models/contact.rb" />
+        <option value="$PROJECT_DIR$/app/views/listings/show.html.erb" />
+        <option value="$PROJECT_DIR$/app/controllers/contact_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/listings_controller.rb" />
+        <option value="$PROJECT_DIR$/test/mailers/previews/contact_seller_mailer_preview.rb" />
+        <option value="$PROJECT_DIR$/app/views/contact_seller_mailer/contact.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/api_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/auth_controller.rb" />
+        <option value="$PROJECT_DIR$/test/controllers/api/v1/auth_controller_test.rb" />
+        <option value="$PROJECT_DIR$/app/mailers/contact_seller_mailer.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/v1/auth_controller.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/api/v1/api_controller.rb" />
+        <option value="$PROJECT_DIR$/app/models/user.rb" />
+        <option value="$PROJECT_DIR$/config/secret.yml" />
+        <option value="$PROJECT_DIR$/test/fixtures/users.yml" />
+        <option value="$PROJECT_DIR$/public/assets/css/application.css" />
+        <option value="$PROJECT_DIR$/config/environments/production.rb" />
+        <option value="$PROJECT_DIR$/log/production.log" />
+        <option value="$PROJECT_DIR$/public/assets/application-0f6d22b414ec24f45f1bcbc8ff4b7de21fe497bfc2d287678d3bfb54a70e3a69.css" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/homepage.scss" />
       </list>
     </option>
   </component>
@@ -122,55 +160,55 @@
     <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="RailsProjectView" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+      <pane id="ProjectPane">
+        <subPane>
           <expand>
             <path>
-              <item name="projet-listing-ruby-titouis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
+              <item name="linuxTitouis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="linuxTitouis" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="projet-listing-ruby-titouis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="config" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="linuxTitouis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="linuxTitouis" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="linuxTitouis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="linuxTitouis" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="linuxTitouis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="linuxTitouis" type="462c0819:PsiDirectoryNode" />
+              <item name="public" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="linuxTitouis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="linuxTitouis" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="linuxTitouis" type="b2602c69:ProjectViewProjectNode" />
+              <item name="linuxTitouis" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
           <expand>
             <path>
-              <item name="projet-listing-ruby-titouis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projet-listing-ruby-titouis" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projet-listing-ruby-titouis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projet-listing-ruby-titouis" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projet-listing-ruby-titouis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projet-listing-ruby-titouis" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projet-listing-ruby-titouis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projet-listing-ruby-titouis" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="projet-listing-ruby-titouis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="projet-listing-ruby-titouis" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
+              <item name="linuxTitouis" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
             </path>
           </expand>
           <select />
@@ -179,8 +217,26 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/softs/ruby253/bin/ruby.exe" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.ruby.settings.RubyActiveModuleSdkConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Virus\OneDrive - Ynov\Ynov\b3\POO\Ruby\linuxTitouis\app\controllers\api\v1" />
+    </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="bundle install" />
+      <command value="bundle Install" />
+    </option>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -194,7 +250,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Rails.Development: projet-listing-ruby-titouis">
+  <component name="RunManager" selected="Rails.Production: projet-listing-ruby-titouis">
     <configuration name="Development: projet-listing-ruby-titouis" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="projet-listing-ruby-titouis" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -295,22 +351,33 @@
       <workItem from="1541585235471" duration="7257000" />
       <workItem from="1541601934182" duration="84000" />
       <workItem from="1551703419705" duration="204000" />
+      <workItem from="1555313031409" duration="1773000" />
+      <workItem from="1555315298884" duration="19699000" />
+      <workItem from="1555398408202" duration="2794000" />
+      <workItem from="1555401447007" duration="5703000" />
     </task>
+    <task id="LOCAL-00001" summary="Add mail and production environnment">
+      <created>1555405900262</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555405900262</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4983000" />
+    <option name="totallyTimeSpent" value="34952000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1366" height="768" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2579425" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info id="Structure" order="0" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="1" side_tool="true" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.40861028" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.32991204" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32991204" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.329429" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.34846267" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -318,7 +385,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" weight="0.32991204" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.32844576" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.51098096" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.32894737" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -330,49 +397,310 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Add mail and production environnment" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add mail and production environnment" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/linuxTitouis@Development__projet_listing_ruby_titouis.rcov" NAME="Development: projet-listing-ruby-titouis Coverage Results" MODIFIED="1555405921929" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="projet-listing-ruby-titouis" />
+    <SUITE FILE_PATH="coverage/linuxTitouis@Production__projet_listing_ruby_titouis.rcov" NAME="Production: projet-listing-ruby-titouis Coverage Results" MODIFIED="1555407510927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="projet-listing-ruby-titouis" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/models/user.rb" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="32" column="9" lean-forward="true" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        <state relative-caret-position="207">
+          <caret line="9" column="9" selection-start-line="9" selection-start-column="9" selection-end-line="9" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/DataModelTitouis.jpg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/annonces.coffee">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/shared/_appbar.html.erb" />
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/_appbar.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/uploaders/image_uploader.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="69">
-          <caret line="3" column="6" lean-forward="true" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/homepage_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/softs/ruby253/lib/ruby/gems/2.5.0/gems/activerecord-5.2.3/lib/active_record/base.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="80" column="36" selection-start-line="80" selection-start-column="36" selection-end-line="80" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/uploads/2ee4e40f6e40ac98d912b2f397582ca1.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/uploads/d2df89b43c46e0d431fbe1693841971a.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/uploads/62809db7f55750625491a381a3bc7221.jpg" />
+    <entry file="file://$PROJECT_DIR$/public/uploads/9a6feea3b8932d517fdecaa1a92cd9ea.jpg" />
+    <entry file="file://$PROJECT_DIR$/app/views/devise/mailer/reset_password_instructions.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" column="7" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/devise/shared/_links.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="98" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/images/hero.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/initializers/shrine.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="63" selection-start-line="6" selection-start-column="63" selection-end-line="6" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/application_system_test_case.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="21" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="805">
+          <caret line="35" column="46" lean-forward="true" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/listings.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="554">
+          <caret line="30" column="12" selection-start-line="30" selection-start-column="12" selection-end-line="30" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/layouts/mailer.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contact_seller_mailer/contact.text.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environment.rb">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://D:/softs/ruby253/lib/ruby/gems/2.5.0/extensions/x64-mingw32/2.5.0/sqlite3-1.4.0/mkmf.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="3" lean-forward="true" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="35" lean-forward="true" selection-start-line="35" selection-end-line="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/listing.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" column="2" lean-forward="true" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/listings/new.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="48" lean-forward="true" selection-start-line="11" selection-start-column="48" selection-end-line="11" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/contact.rb" />
+    <entry file="file://$PROJECT_DIR$/app/views/listings/show.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="828">
+          <caret line="36" column="22" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/contact_seller_mailer/contact.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="19" selection-start-line="2" selection-start-column="19" selection-end-line="2" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/controllers/v1/api_controller_test.rb" />
+    <entry file="file://$PROJECT_DIR$/app/helpers/v1/api_helper.rb" />
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/mailers/contact_seller_mailer.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/mailers/previews/contact_seller_mailer_preview.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="69">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/controllers/api/v1/auth_controller_test.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/contact_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/softs/ruby253/lib/ruby/2.5.0/securerandom.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="428">
+          <caret line="221" column="28" lean-forward="true" selection-start-line="221" selection-start-column="28" selection-end-line="221" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/auth_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/secrets.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="28" lean-forward="true" selection-start-line="1" selection-start-column="28" selection-end-line="1" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/fixtures/users.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/models/user.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/environments/production.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="82" lean-forward="true" selection-start-line="82" selection-end-line="82" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/css/application.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/api/v1/api_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/listings_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/log/production.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="7" column="68" selection-start-line="7" selection-start-column="68" selection-end-line="7" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/application-b3b411c2d991f1146f07089f6b34d937d92efa010c361e8247d24bce6e7ccc95.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="3" column="31" lean-forward="true" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/application-0f6d22b414ec24f45f1bcbc8ff4b7de21fe497bfc2d287678d3bfb54a70e3a69.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/assets/hero-87759f9facd57327609f8db27feef3934cb93b93620753655b14c4ff2138d5f8.jpg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/homepage.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="4" column="52" lean-forward="true" selection-start-line="4" selection-start-column="52" selection-end-line="4" selection-end-column="52" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/mongoid.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-897" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/homepage/index.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state>
+          <caret lean-forward="true" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/layouts/application.html.erb">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
+        <state relative-caret-position="288">
+          <caret line="12" lean-forward="true" selection-end-line="34" selection-end-column="5" />
         </state>
       </provider>
     </entry>

@@ -4,8 +4,8 @@ require 'shrine'
 require 'shrine/storage/file_system'
 
 Shrine.storages = {
-  cache: Shrine::Storage::FileSystem.new('public', prefix: 'uploads/cache'), # temporary
-  store: Shrine::Storage::FileSystem.new('public', prefix: 'uploads'), # permanent
+  cache: Shrine::Storage::FileSystem.new('app', prefix: 'assets/images/cache'), # temporary
+  store: Shrine::Storage::FileSystem.new('app', prefix: 'assets/images'), # permanent
 }
 
 Shrine.plugin :activerecord
