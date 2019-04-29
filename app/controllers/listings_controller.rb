@@ -32,4 +32,8 @@ class ListingsController < ApplicationController
     redirect_to listings_path
   end
 
+  def detail
+    @listing = Listing.find(params[:format])
+  end
+
 end

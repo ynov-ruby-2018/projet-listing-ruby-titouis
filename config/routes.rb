@@ -8,6 +8,7 @@ Rails.application.routes.draw do
   root to: 'homepage#index'
   resource :listings
   post '/listings/contact', to: 'contact#contact'
+  get 'listings_details', action: :detail, controller: 'listings'
 
   namespace :api, format: 'json' do
     namespace :v1 do
