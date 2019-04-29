@@ -1,4 +1,4 @@
-class Listing
+  class Listing
   include Mongoid::Document
   include ImageUploader::Attachment.new(:photo)
 
